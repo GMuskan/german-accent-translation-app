@@ -1,0 +1,68 @@
+:root{
+    --primary-color: #9ca3af;
+    --width-break: 600px;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+
+}
+.navbar{
+    background-color: var(--primary-color) ;
+    text-align: center;
+    padding: 1rem; 
+}
+main{
+    max-width: var(--width-break);
+    padding: 1rem;
+    margin:auto;
+}
+textarea{
+    margin: 1rem 0rem;
+    padding: 1rem;
+    width: 100%;
+    height: 20vh;
+    display: block;
+    overflow: hidden;
+}
+img{
+    max-width:8rem;
+}
+#btn-translate{
+    background-color: var(--primary-color);
+    max-width: 20rem;
+    height: 10vh;
+}
+#clear{
+    background-color: var(--primary-color);
+    max-width: 20rem;
+    height: 5vh;
+}
+#output{
+    overflow: scroll;
+    min-height: 10vh;
+    max-height: 20vh;
+    border: 1px solid black;
+    margin: 1rem 0rem;
+    padding: 1rem;
+    font-size: large;
+}
+footer{
+    background-color: var(--primary-color);
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+    padding: 1rem;
+    width: 100%; 
+}
+footer p{
+    text-align: center;
+    display: block;
+    width: var(--width-break);
+    margin: auto;
+    
+}
+
+
